@@ -1,14 +1,1 @@
-{
-  "app": {
-   // Name of your project
-   "name": "Uniswap",
-  },
-  "networks": {
-    "mainnet": {
-      // Uniswap V2 Mainnet Factory Address
-      "factory": "0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f",
-      // Timestamp or block number to start indexing at
-      "start": 0
-    }
-  }
-}
+{}
