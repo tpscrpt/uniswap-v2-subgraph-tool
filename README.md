@@ -1,4 +1,28 @@
-# Uniswap V2 Subgraph
+# Tool for Uniswap V2 Subgraph
+
+Requires a version of [nodejs](https://nodejs.org).
+
+Invoke directly, or with `npm run tool`.
+
+```
+tool <command> [options]
+
+Commands:
+  tool project <name>                set project name
+  tool config <network> <options..>  configure project details for network
+  tool auth <token>                  set graph hosted service auth token
+  tool deploy <network> <subgraph>   deploy your project's subgraph
+
+Options:
+  --version  Show version number                                       [boolean]
+  --help     Show help                                                 [boolean]
+
+Examples:
+  tool project SushiSwap
+  tool config mainnet 2021-11-19 00:01:52 am UTC 0xc0aee..f2ac
+  tool auth 20325792affeefa9ed99420b7f353a55
+  tool deploy mainnet `whoami`/mainnet-subgraph
+```
 
 [Uniswap](https://uniswap.org/) is a decentralized protocol for automated token exchange on Ethereum.
 

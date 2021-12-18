@@ -4,6 +4,7 @@
   "repository": "https://github.com/graphprotocol/uniswap-v2-subgraph",
   "license": "GPL-3.0-or-later",
   "scripts": {
+    "tool": "node ./tool",
     "codegen": "graph codegen --output-dir src/types/",
     "build": "graph build",
     "create-local": "graph create davekaj/uniswap --node http://127.0.0.1:8020",
@@ -21,5 +22,8 @@
     "eslint-config-prettier": "^6.1.0",
     "prettier": "^1.18.2",
     "typescript": "^3.5.2"
+  },
+  "dependencies": {
+    "yargs": "^17.3.0"
   }
 }
